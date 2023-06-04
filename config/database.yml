@@ -24,5 +24,5 @@ production:
   <<: *default
   adapter: postgresql
   database: hw4-john-krone_production
-   username: hw4-john-krone
-   password: <%= ENV["HW4-JOHN-KRONE_DATABASE_PASSWORD"] %>
+  username: hw4-john-krone
+  password: <%= ENV["HW4-JOHN-KRONE_DATABASE_PASSWORD"] %>
